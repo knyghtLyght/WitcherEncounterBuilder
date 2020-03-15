@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<WEBRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Monster ID="3482bba7-65da-4740-8205-8e815aeb55cb" Name="test01" Bounty="4">
+    <Threat Difficulty="Easy" Complexity="simple" />
+  </Monster>
+  <Monster ID="15c89668-503e-4bf1-8555-cc8a49393f26" Name="test11" Bounty="6">
+    <Threat Difficulty="Easy" Complexity="simple" />
+  </Monster>
+  <Monster ID="0ef49408-745b-4088-a203-29f39dce1466" Name="test21" Bounty="8">
+    <Threat Difficulty="Easy" Complexity="simple" />
+  </Monster>
+</WEBRoot>
