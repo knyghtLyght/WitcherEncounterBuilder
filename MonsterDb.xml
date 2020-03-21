@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<WEBRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Monster ID="2c5fc0eb-4752-467b-86e0-c75aff67aafb" Name="test01" Bounty="4" Armor="0">
+    <Threat Difficulty="Easy" Complexity="simple" />
+    <Skills>
+      <IntelligenceSkills Awareness="0" Business="0" Deduction="0" Education="0" CommonSpeech="5" ElderSpeech="0" Dwarven="0" MonsterLore="0" SocialEtiquette="0" Streetwise="0" Tactics="0" Teaching="0" WildernessSurvival="0" />
+    </Skills>
+    <Abilities xsi:type="Regeneration" Name="Regeneration" Description="Regenerate 5 points per round" />
+    <Vulnerabilities xsi:type="VampireOil" Name="Vampire Oil" />
+  </Monster>
+  <Monster ID="1d76fa74-f568-434b-8de1-1a5c0265233a" Name="test11" Bounty="6" Armor="0">
+    <Threat Difficulty="Easy" Complexity="simple" />
+    <Skills>
+      <IntelligenceSkills Awareness="0" Business="0" Deduction="0" Education="0" CommonSpeech="5" ElderSpeech="0" Dwarven="0" MonsterLore="0" SocialEtiquette="0" Streetwise="0" Tactics="0" Teaching="0" WildernessSurvival="0" />
+    </Skills>
+    <Abilities xsi:type="Regeneration" Name="Regeneration" Description="Regenerate 5 points per round" />
+    <Vulnerabilities xsi:type="VampireOil" Name="Vampire Oil" />
+  </Monster>
+  <Monster ID="f65f34ca-b36d-4b86-b64c-3de9d5a8e1a3" Name="test21" Bounty="8" Armor="0">
+    <Threat Difficulty="Easy" Complexity="simple" />
+    <Skills>
+      <IntelligenceSkills Awareness="0" Business="0" Deduction="0" Education="0" CommonSpeech="5" ElderSpeech="0" Dwarven="0" MonsterLore="0" SocialEtiquette="0" Streetwise="0" Tactics="0" Teaching="0" WildernessSurvival="0" />
+    </Skills>
+    <Abilities xsi:type="Regeneration" Name="Regeneration" Description="Regenerate 5 points per round" />
+    <Vulnerabilities xsi:type="VampireOil" Name="Vampire Oil" />
+  </Monster>
+  <Monster ID="8e6637f0-d215-4dd3-b96e-6c6de3b4ed30" Name="Alp" Bounty="1000" Armor="0">
+    <Threat Difficulty="Hard" Complexity="Difficult" />
+    <Skills>
+      <IntelligenceSkills Awareness="8" Business="0" Deduction="0" Education="0" CommonSpeech="0" ElderSpeech="0" Dwarven="0" MonsterLore="0" SocialEtiquette="0" Streetwise="0" Tactics="0" Teaching="0" WildernessSurvival="0" />
+      <ReflexSkills Brawling="8" DodgeEscape="10" Melee="7" Riding="0" Sailing="0" SmallBlades="0" StaffSpear="0" Swordsmanship="0" />
+      <DexteritySkills Archery="0" Athletics="10" Crossbow="0" SlightOfHand="0" Stealth="9" />
+      <BodySkills Physique="0" Endurance="0" />
+      <EmpathySkills Charisma="9" Deceit="10" FineArts="0" Gambling="0" Style="0" HumanPerception="8" Leadership="0" Persuasion="0" Performance="0" Seduction="10" />
+      <CraftSkills Alchemy="0" Crafting="0" Disguise="0" FirstAid="0" Forgery="0" PickLock="0" TrapCrafting="0" />
+      <WillSkills Courage="6" HexWeaving="0" Intimidation="4" SpellCasting="0" ResistMagic="9" ResistCoercion="8" RitualCrafting="0" />
+    </Skills>
+    <Abilities xsi:type="AnaestheticSalivaAbility" Name="Anaesthetic Saliva" Description="If the saliva of an alp touches a target’s skin they must make a Stun save at -2 or be rendered unconscious next round. Golden Oriole renders the drinker immune to this." />
+    <Abilities xsi:type="FastCharge" Name="Fast Charge" Description="Alps can use the charge special attack at no penalties and can split their movement before and after one if it moves in a straight line." />
+    <Abilities xsi:type="IllusionAbility" Name="Illusion" Description="An alp is capable of instantly raising an illusion to make it look like a beautiful woman with features of its choosing, a wolf, or a cat. This illusion can be dispelled with a DC:15 Spell Casting roll." />
+    <Abilities xsi:type="InvisibleToMagicalScanningAbility" Name="Invisible to Magical Scanning" Description="Alps cannot be detected by witcher medallions. Mages must succeed at a Magic Training roll against the alp’s Resist Magic roll to sense them." />
+    <Abilities xsi:type="NightVision" Name="Night Vision" Description="Alps operate in areas of dim light with no penalties." />
+    <Abilities xsi:type="Regeneration" Name="Regeneration" Description="Regenerate 5 points per round" />
+    <Abilities xsi:type="SonicScreechAbility" Name="Sonic Screech" Description="An alp can take its turn to let out a screech which forces anyone within 10m to make a Stun save at -1. It also has a 25% to knock targets prone." />
+    <Vulnerabilities xsi:type="BlackBloodPotion" Name="Black Blood Potion" />
+    <Vulnerabilities xsi:type="BloodTransference" Name="Blood Transference" Description="Alps are affected by any substances in the blood they drink." />
+    <Vulnerabilities xsi:type="MoondustBomb" Name="Moondust Bomb" Description="An alp caught in the area of a Moondust Bomb is staggered, takes 3d6 damage and has a 25% chance to be set on fire." />
+    <Vulnerabilities xsi:type="TouchOfSilver" Name="Touch of Silver" Description="Alps cannot stand the mere touch of silver. Any damage with silver weapons is doubled and contact with it causes damage as fire." />
+    <Vulnerabilities xsi:type="VampireOil" Name="Vampire Oil" />
+    <MutagenRecoverySection Decoction="Alp Decoction" Description="Grants +2 to Critical Wound Chance rolls.">
+      <DecoctionFormulae Name="Alp Decoction Formulae" CraftDC="18" CraftTime="0.5">
+        <Components>Rebis</Components>
+        <Components>Rebis</Components>
+        <Components>Quebrith</Components>
+        <Components>Aether</Components>
+        <Components>Fulgur</Components>
+      </DecoctionFormulae>
+      <Mutagen Name="Alp Mutagen" Effect="+1 Dodge/Escape" AlchemyDC="20" MinorMutation="Visibly swollen veins" />
+    </MutagenRecoverySection>
+    <Loot xsi:type="VampireTeeth" Name="Vampire Teeth" AmountDie="10" RangeValue="1" />
+    <Weapons xsi:type="Claws" Name="Claws" DamageDie="6" NumberOfDamageDie="5" RateOfFire="2" />
+    <Weapons xsi:type="Bite" Name="Bite" DamageDie="6" NumberOfDamageDie="2" RateOfFire="1">
+      <WeaponEffects xsi:type="Bleed" Name="Bleed" Rate="100" />
+      <WeaponEffects xsi:type="AnaestheticSalivaAbility" Name="Anaesthetic Saliva" Description="If the saliva of an alp touches a target’s skin they must make a Stun save at -2 or be rendered unconscious next round. Golden Oriole renders the drinker immune to this." />
+    </Weapons>
+  </Monster>
+</WEBRoot>
